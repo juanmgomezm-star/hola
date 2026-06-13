@@ -1,0 +1,40 @@
+/* Encabezado */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Fila de fechas en paralelo */
+.row-dates {
+  display: flex;
+  gap: 1rem;
+}
+.row-dates .form-group { flex: 1; }
+
+/* Botón Salir — pequeño, rojo */
+.btn-salir {
+  width: auto !important;
+  padding: 0.4rem 1rem !important;
+  margin: 0 !important;
+  margin-top: 0 !important;
+  background: linear-gradient(135deg, var(--error), #dc2626) !important;
+  font-size: 0.85rem;
+}
+
+
+.btn-ver {
+  margin-top: 1.5rem;
+  background: linear-gradient(135deg, var(--secondary), var(--primary));
+}
+
+/* Tabla */
+.tabla-wrapper { margin-top: 1.5rem; overflow-x: auto; }
+.tabla-wrapper h3 { margin-bottom: 0.75rem; }
+
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+th { padding: 0.5rem; text-align: left; background: var(--primary); color: white; }
+td { padding: 0.5rem; border-bottom: 1px solid var(--border); }
+
+.empty-msg { margin-top: 1rem; text-align: center; color: var(--text-muted); }
